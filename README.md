@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+https://dev.to/timnans/simple-rails-6-chat-application-with-action-cable-1b6m
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+other references
+https://medium.com/@JeremyVe/rails-5-actioncable-and-heroku-b10880dafb58

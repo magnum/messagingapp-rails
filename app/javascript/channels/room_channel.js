@@ -10,18 +10,15 @@ consumer.subscriptions.create("RoomChannel", {
   },
 
   received(data) {
-    /*
-    var node = document.createElement("p"); 
-    var textnode = document.createTextNode(data.content.message); 
-    node.id = data.content.id;
-    node.appendChild(textnode); 
-    document.getElementById("new_message").appendChild(node);
-    */
+    // var node = document.createElement("p"); 
+    // var textnode = document.createTextNode(data.content.message); 
+    // node.id = data.content.id;
+    // node.appendChild(textnode); 
+    // document.getElementById("new_message").appendChild(node);
     var lines = document.getElementById("chats").value;
     document.getElementById("chats").value = data.content.message + "\n" + lines;
-    
-    document.getElementById('chat_message').value= ''
 
+    document.getElementById('chat_message').value= ''
     // Called when there's incoming data on the websocket for this channel
   }
 });
