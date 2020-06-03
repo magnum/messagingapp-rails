@@ -1,0 +1,7 @@
+%p#notice= notice
+%p
+  %strong Message:
+  = @chat.message
+= link_to 'Edit', edit_chat_path(@chat)
+|
+= link_to 'Back', chats_path

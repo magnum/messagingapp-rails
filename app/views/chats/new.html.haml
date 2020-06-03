@@ -1,0 +1,14 @@
+%h1 New Chat
+
+- if false
+  - @chats.each do |chat|
+    %p{:id => "#{chat.id}"}= chat.message
+  #new_message
+
+%textarea#chats{rows: 20}
+  - @chats.each do |chat|
+    = raw "#{chat.message}\rn"
+
+
+= render 'form', chat: @chat
+= link_to 'Back', chats_path
